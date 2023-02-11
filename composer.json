@@ -1,0 +1,12 @@
+{
+    "name": "Equipo_4",
+    "description": "Proyecto Task_Pro",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models"
+        }
+    }
+}
