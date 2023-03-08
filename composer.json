@@ -1,12 +1,16 @@
 {
-    "name": "Equipo_4",
-    "description": "Proyecto Task_Pro",
+    "name": "Proyecto Margarita",
+    "description": "Proyecto del Noveno",
     "type": "project",
     "autoload": {
         "psr-4": {
             "MVC\\" : "./",
             "Controllers\\" : "./controllers",
-            "Model\\" : "./models"
+            "Model\\" : "./models", 
+            "Classes\\" : "./classes"
         }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.7"
     }
 }
